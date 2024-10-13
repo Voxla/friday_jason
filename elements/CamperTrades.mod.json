@@ -1,0 +1,177 @@
+{
+  "_fv": 57,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Camper"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FirLog"
+            },
+            "countOffer": 16,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:FirLog"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 20,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:FirLog"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.CAMPFIRE"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.07
+          },
+          {
+            "price1": {
+              "value": "Blocks.SAPLING#1"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FirSapling"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 15,
+            "xp": 7,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:FirLog"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 10,
+            "level": 3,
+            "maxTrades": 15,
+            "xp": 15,
+            "priceMultiplier": 0.07
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.COBBLESTONE"
+            },
+            "countOffer": 64,
+            "level": 3,
+            "maxTrades": 30,
+            "xp": 10,
+            "priceMultiplier": 0.03
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FirWood"
+            },
+            "countOffer": 4,
+            "level": 4,
+            "maxTrades": 20,
+            "xp": 10,
+            "priceMultiplier": 0.03
+          },
+          {
+            "price1": {
+              "value": "Items.COMPASS"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 4,
+            "maxTrades": 3,
+            "xp": 20,
+            "priceMultiplier": 0.0
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Items.DIAMOND_SWORD"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SlashersMachete"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 2,
+            "xp": 1000,
+            "priceMultiplier": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

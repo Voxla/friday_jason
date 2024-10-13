@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "friday_jason:block/stripped_fir_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "friday_jason:block/stripped_fir_log"
+    },
+    "axis=z": {
+      "model": "friday_jason:block/stripped_fir_log",
+      "x": 90
+    }
+  }
+}

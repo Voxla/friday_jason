@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "friday_jason:blocks/brokeninvisblock",
+    "up": "friday_jason:blocks/brokeninvisblock",
+    "north": "friday_jason:blocks/brokeninvisblock",
+    "east": "friday_jason:blocks/brokeninvisblock",
+    "south": "friday_jason:blocks/brokeninvisblock",
+    "west": "friday_jason:blocks/brokeninvisblock",
+    "particle": "friday_jason:blocks/brokeninvisblock"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "friday_jason:blocks/fir_planks"
+  },
+  "render_type": "solid"
+}

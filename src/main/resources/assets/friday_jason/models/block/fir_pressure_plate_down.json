@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "friday_jason:blocks/fir_planks"
+  },
+  "render_type": "solid"
+}

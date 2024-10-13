@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "friday_jason:fir_planks"
+    }
+  },
+  "result": {
+    "item": "friday_jason:fir_fence_gate",
+    "count": 1
+  }
+}

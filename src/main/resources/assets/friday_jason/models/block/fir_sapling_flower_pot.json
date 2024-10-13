@@ -1,0 +1,9 @@
+{
+  "parent": "friday_jason:custom/fir_flower_pot",
+  "textures": {
+    "all": "friday_jason:blocks/fir_sapling_flower_pot",
+    "particle": "friday_jason:blocks/buttercup_flower_pot_particles",
+    "0": "friday_jason:blocks/fir_sapling_flower_pot"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "friday_jason:blocks/fir_leaves",
+    "particle": "friday_jason:blocks/fir_leaves"
+  }
+}

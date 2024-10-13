@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "CUSTOM:FirForest"
+      }
+    ],
+    "damageTypes": [],
+    "name": "is_forest",
+    "namespace": "minecraft"
+  }
+}

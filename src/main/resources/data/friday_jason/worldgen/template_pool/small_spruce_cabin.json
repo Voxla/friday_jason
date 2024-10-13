@@ -1,0 +1,29 @@
+{
+  "name": "friday_jason:small_spruce_cabin",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "friday_jason:small_spruce_cabin",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:grass_block"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

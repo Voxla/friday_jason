@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Damage types",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [
+      {
+        "value": "CUSTOM:JasonDamage"
+      }
+    ],
+    "name": "bypasses_enchantments",
+    "namespace": "minecraft"
+  }
+}

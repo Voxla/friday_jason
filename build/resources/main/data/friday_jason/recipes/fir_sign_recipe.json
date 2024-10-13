@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "abb",
+    "bab",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "friday_jason:stripped_fir_log"
+    },
+    "b": {
+      "item": "friday_jason:fir_planks"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_sign",
+    "count": 1
+  }
+}

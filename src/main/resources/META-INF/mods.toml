@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+
+[[mods]]
+modId="friday_jason"
+version="1.0.0"
+displayName="Friday the 13th: Jason Voorhees"
+displayURL="https://www.curseforge.com/members/voxla/projects"
+logoFile="logo.png"
+credits="Created using mod maker MCreator, Mod made by Voxla"
+authors="Voxla"
+description="This mod adds the slasher Jason Voorhees to Minecraft along with a few new structures and a new wood type."
+
+[[dependencies.friday_jason]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.friday_jason]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

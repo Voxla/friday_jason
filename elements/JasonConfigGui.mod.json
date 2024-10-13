@@ -1,0 +1,353 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 242,
+    "height": 240,
+    "inventoryOffsetX": -2000,
+    "inventoryOffsetY": -2000,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_jason_config",
+          "text": {
+            "fixedValue": "Jason Config"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 100,
+          "y": 5
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_jason_spawn_time",
+          "text": {
+            "fixedValue": "jason_spawn_time"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 100,
+          "y": 23
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "jason_spawn_time_input",
+          "width": 120,
+          "height": 20,
+          "x": 100,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_jason_killed_cooldown",
+          "text": {
+            "fixedValue": "jason_killed_cooldown"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 100,
+          "y": 59
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "jason_killed_cooldown_input",
+          "width": 120,
+          "height": 20,
+          "x": 100,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_does_jason_get_faster_at_bloodst",
+          "text": {
+            "fixedValue": "does_jason_get_faster_at_blood_stage_3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 100,
+          "y": 95
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "does_jason_get_faster_at_bloodstage_3_check",
+          "text": "",
+          "x": 100,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_does_jason_get_stronger_with_eac",
+          "text": {
+            "fixedValue": "jason_get_stronger_with_each_blood_stage"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 100,
+          "y": 131
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "does_jason_get_stronger_with_each_blood_stage_check",
+          "text": "",
+          "x": 100,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_jason_music",
+          "text": {
+            "fixedValue": "jason_music"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 254,
+          "y": 23
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "jason_music_check",
+          "text": "",
+          "x": 254,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_done",
+          "text": "Done",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "JasonConfigDoneButton"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 281,
+          "y": 215
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reset",
+          "text": "Reset",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "JasonConfigResetButton"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 226,
+          "y": 215
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_cancel",
+          "text": "Cancel",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "JasonConfigCancelButton"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 166,
+          "y": 215
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 309,
+          "y": 191
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 276,
+          "y": 35
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 122,
+          "y": 143
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 122,
+          "y": 107
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 221,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 221,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_jason_spawn_during_day",
+          "text": {
+            "fixedValue": "jason_spawn_during_day"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 199,
+          "y": 167
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "jason_spawn_during_day_check",
+          "text": "",
+          "x": 199,
+          "y": 179
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 221,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ft13th_game_music",
+          "text": {
+            "fixedValue": "ft13th_game_music"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 100,
+          "y": 167
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "ft13th_game_music_check",
+          "text": "",
+          "x": 100,
+          "y": 179
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 122,
+          "y": 179
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "JasonConfigGuiThisGUIIsOpened"
+    },
+    "gridSettings": {
+      "sx": 11,
+      "sy": 12,
+      "ox": 11,
+      "oy": 9,
+      "snapOnGrid": true
+    }
+  }
+}

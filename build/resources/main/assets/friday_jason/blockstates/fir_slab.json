@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "friday_jason:block/fir_slab"
+    },
+    "type=top": {
+      "model": "friday_jason:block/fir_slab_top"
+    },
+    "type=double": {
+      "model": "friday_jason:block/fir_slab_full"
+    }
+  }
+}

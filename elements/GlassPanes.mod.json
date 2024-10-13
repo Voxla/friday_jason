@@ -1,0 +1,67 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#0"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#1"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#2"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#3"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#4"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#5"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#6"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#7"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#8"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#9"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#10"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#11"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#12"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#13"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#14"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#15"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "glass_panes",
+    "namespace": "mod"
+  }
+}

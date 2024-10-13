@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StrippedFirLog"
+      },
+      {
+        "value": "CUSTOM:FirPlanks"
+      },
+      {
+        "value": "CUSTOM:FirPlanks"
+      },
+      {
+        "value": "CUSTOM:FirPlanks"
+      },
+      {
+        "value": "CUSTOM:StrippedFirLog"
+      },
+      {
+        "value": "CUSTOM:FirPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SPRUCE_SIGN"
+    },
+    "name": "fir_sign_recipe",
+    "namespace": "mod"
+  }
+}

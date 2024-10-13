@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "friday_jason:large_spruce_cabin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 37,
+    "separation": 33,
+    "salt": 426286951
+  }
+}

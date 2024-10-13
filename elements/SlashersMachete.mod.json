@@ -1,0 +1,33 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "machete",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "§bSlasher's Machete",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 0,
+    "efficiency": 10.0,
+    "attackSpeed": 1.3,
+    "enchantability": 8,
+    "damageVsEntity": 8.0,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

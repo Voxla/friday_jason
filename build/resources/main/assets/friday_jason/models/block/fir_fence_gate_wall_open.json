@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall_open",
+  "textures": {
+    "texture": "friday_jason:blocks/fir_planks"
+  },
+  "render_type": "solid"
+}

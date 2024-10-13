@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s got cut in half by Jason Voorhees",
+    "itemDeathMessage": "%1$s was gutted by %2$s",
+    "playerDeathMessage": "%1$s got slaughtered whilst trying to escape %2$s"
+  }
+}

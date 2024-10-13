@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "particle",
+  "definition": {
+    "texture": "generic_blood_poof.png",
+    "animate": true,
+    "frameDuration": 6,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 1.5,
+    "speedFactor": 1.0,
+    "gravity": -0.05,
+    "maxAge": 46,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "OPAQUE"
+  }
+}

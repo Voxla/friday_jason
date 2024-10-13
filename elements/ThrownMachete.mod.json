@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:SlashersMachete"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 2.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Modelthrownmachete",
+    "customModelTexture": "macheteprojectile.png",
+    "onHitsBlock": {
+      "name": "ThrownMacheteProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "ThrownMacheteProjectileHitsPlayer"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:FirDoor"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:FirDoor"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "doors",
+    "namespace": "minecraft"
+  }
+}

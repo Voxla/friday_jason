@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "friday_jason:blocks/fir_sapling",
+    "particle": "friday_jason:blocks/fir_sapling"
+  },
+  "render_type": "cutout"
+}

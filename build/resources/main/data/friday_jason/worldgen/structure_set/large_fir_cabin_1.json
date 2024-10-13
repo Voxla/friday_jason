@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "friday_jason:large_fir_cabin_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 34,
+    "separation": 30,
+    "salt": 1248265149
+  }
+}

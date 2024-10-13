@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:FirLog"
+      },
+      {
+        "value": "CUSTOM:StrippedFirLog"
+      },
+      {
+        "value": "CUSTOM:FirWood"
+      },
+      {
+        "value": "CUSTOM:StrippedFirWood"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

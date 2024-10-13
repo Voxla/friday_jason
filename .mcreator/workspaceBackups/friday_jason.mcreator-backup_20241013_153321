@@ -1,0 +1,4050 @@
+{
+  "mod_elements": [
+    {
+      "name": "JasonVoorheesDeathTimeIsReached",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_voorhees_death_time_is_reached",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonVoorheesDeathTimeIsReachedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonVoorhees",
+      "type": "animatedentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_voorhees",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/entity/model/JasonVoorheesModel.java",
+          "src/main/java/net/voxla/fridayjason/client/renderer/JasonVoorheesRenderer.java",
+          "src/main/java/net/voxla/fridayjason/entity/JasonVoorheesEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodDrip",
+      "type": "particle",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_drip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/particles/blood_drip.json",
+          "src/main/java/net/voxla/fridayjason/client/particle/BloodDripParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "InjuryOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "injury_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/InjuryOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Injury",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "injury",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/potion/InjuryMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "JasonHitsEntity",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_hits_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonHitsEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonVoorheesBoundingBoxScale",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_voorhees_bounding_box_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonVoorheesBoundingBoxScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonSneakProc",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_sneak_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonSneakProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonVoorheesOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_voorhees_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonVoorheesOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SearchMeter",
+      "type": "overlay",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "search_meter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/client/screens/SearchMeterOverlay.java"
+        ]
+      },
+      "path": "~/SearchOverlay"
+    },
+    {
+      "name": "JasonVoorheesThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_voorhees_this_entity_kills_another_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonVoorheesThisEntityKillsAnotherOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FirLog",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/block/FirLogBlock.java",
+          "src/main/resources/assets/friday_jason/models/item/fir_log.json",
+          "src/main/resources/assets/friday_jason/blockstates/fir_log.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_log.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "IsOverworldBiomes",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_overworld_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_overworld.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BiomeTags"
+    },
+    {
+      "name": "StrippedFirLog",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_fir_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/item/stripped_fir_log.json",
+          "src/main/resources/assets/friday_jason/blockstates/stripped_fir_log.json",
+          "src/main/java/net/voxla/fridayjason/block/StrippedFirLogBlock.java",
+          "src/main/resources/assets/friday_jason/models/block/stripped_fir_log.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "StripFirLogProc",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_fir_log_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/StripFirLogProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirPlanks",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/item/fir_planks.json",
+          "src/main/resources/assets/friday_jason/blockstates/fir_planks.json",
+          "src/main/java/net/voxla/fridayjason/block/FirPlanksBlock.java",
+          "src/main/resources/assets/friday_jason/models/block/fir_planks.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirLeaves",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/item/fir_leaves.json",
+          "src/main/resources/assets/friday_jason/blockstates/fir_leaves.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_leaves.json",
+          "src/main/java/net/voxla/fridayjason/block/FirLeavesBlock.java"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirLeavesLoot",
+      "type": "loottable",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/loot_tables/blocks/fir_leaves.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/leaves.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "FirDoor",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/block/fir_door_top_right_open.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_door_top_left_open.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_door_top_right.json",
+          "src/main/java/net/voxla/fridayjason/block/FirDoorBlock.java",
+          "src/main/resources/assets/friday_jason/models/block/fir_door_bottom_right.json",
+          "src/main/resources/assets/friday_jason/models/item/fir_door.json",
+          "src/main/resources/assets/friday_jason/blockstates/fir_door.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_door_bottom_left.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_door_bottom_left_open.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_door_top_left.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_door_bottom_right_open.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirTrapdoor",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/block/FirTrapdoorBlock.java",
+          "src/main/resources/assets/friday_jason/models/item/fir_trapdoor.json",
+          "src/main/resources/assets/friday_jason/blockstates/fir_trapdoor.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_trapdoor.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_trapdoor_top.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_trapdoor_open.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSaplingBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/FirSaplingBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/FirSaplingUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSaplingBoneMealSuccessCondition",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling_bone_meal_success_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/FirSaplingBoneMealSuccessConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSaplingOnBoneMealSuccess",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/FirSaplingOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSaplingNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/FirSaplingNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSapling",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/block/fir_sapling.json",
+          "src/main/resources/assets/friday_jason/blockstates/fir_sapling.json",
+          "src/main/java/net/voxla/fridayjason/block/FirSaplingBlock.java",
+          "src/main/resources/assets/friday_jason/models/item/fir_sapling.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/world/biome/FirForestBiome.java"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirTree",
+      "type": "feature",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/forge/biome_modifier/fir_tree_biome_modifier.json",
+          "src/main/resources/data/friday_jason/worldgen/placed_feature/fir_tree.json",
+          "src/main/resources/data/friday_jason/worldgen/configured_feature/fir_tree.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "PlayerCanSeeJasonProc",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_can_see_jason_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/PlayerCanSeeJasonProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "FirSlab",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/block/fir_slab.json",
+          "src/main/resources/assets/friday_jason/models/item/fir_slab.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_slab_full.json",
+          "src/main/java/net/voxla/fridayjason/block/FirSlabBlock.java",
+          "src/main/resources/assets/friday_jason/models/block/fir_slab_top.json",
+          "src/main/resources/assets/friday_jason/blockstates/fir_slab.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirStairs",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/block/FirStairsBlock.java",
+          "src/main/resources/assets/friday_jason/models/block/fir_stairs_outer.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_stairs.json",
+          "src/main/resources/assets/friday_jason/models/item/fir_stairs.json",
+          "src/main/resources/assets/friday_jason/blockstates/fir_stairs.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_stairs_inner.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirFence",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/block/fir_fence.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_fence_post.json",
+          "src/main/java/net/voxla/fridayjason/block/FirFenceBlock.java",
+          "src/main/resources/assets/friday_jason/blockstates/fir_fence.json",
+          "src/main/resources/assets/friday_jason/models/item/fir_fence.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_fence_inventory.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirFenceGate",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/block/fir_fence_gate.json",
+          "src/main/resources/assets/friday_jason/models/item/fir_fence_gate.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_fence_gate_open.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_fence_gate_wall_open.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_fence_gate_wall.json",
+          "src/main/java/net/voxla/fridayjason/block/FirFenceGateBlock.java",
+          "src/main/resources/assets/friday_jason/blockstates/fir_fence_gate.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirButton",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/block/fir_button_pressed.json",
+          "src/main/resources/assets/friday_jason/blockstates/fir_button.json",
+          "src/main/resources/assets/friday_jason/models/item/fir_button.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_button.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_button_inventory.json",
+          "src/main/java/net/voxla/fridayjason/block/FirButtonBlock.java"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirPressurePlate",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/blockstates/fir_pressure_plate.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_pressure_plate.json",
+          "src/main/resources/assets/friday_jason/models/item/fir_pressure_plate.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_pressure_plate_down.json",
+          "src/main/java/net/voxla/fridayjason/block/FirPressurePlateBlock.java"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "IsForestBiomes",
+      "type": "tag",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_forest_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_forest.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BiomeTags"
+    },
+    {
+      "name": "ButtonItems",
+      "type": "tag",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/buttons.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "SlabItems",
+      "type": "tag",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slab_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/slabs.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "StairItems",
+      "type": "tag",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stair_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/stairs.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "WoodenbuttonItems",
+      "type": "tag",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodenbutton_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_buttons.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "WoodenPressurePlateItems",
+      "type": "tag",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_pressure_plate_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_pressure_plates.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "WoodenSlabItems",
+      "type": "tag",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_slab_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_slabs.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "WoodenStairItems",
+      "type": "tag",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_stair_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_stairs.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "WoodenTrapdoorItems",
+      "type": "tag",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_trapdoor_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_trapdoors.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "WoodenDoorItems",
+      "type": "tag",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_door_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_doors.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "DoorItems",
+      "type": "tag",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "door_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/doors.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "TrapdoorItems",
+      "type": "tag",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trapdoor_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/trapdoor_items.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "FirWood",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/block/FirWoodBlock.java",
+          "src/main/resources/assets/friday_jason/models/item/fir_wood.json",
+          "src/main/resources/assets/friday_jason/models/block/fir_wood.json",
+          "src/main/resources/assets/friday_jason/blockstates/fir_wood.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "StrippedFirWood",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_fir_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/block/StrippedFirWoodBlock.java",
+          "src/main/resources/assets/friday_jason/blockstates/stripped_fir_wood.json",
+          "src/main/resources/assets/friday_jason/models/item/stripped_fir_wood.json",
+          "src/main/resources/assets/friday_jason/models/block/stripped_fir_wood.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "DoorBlocks",
+      "type": "tag",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "door_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/doors.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "ButtonBlocks",
+      "type": "tag",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/buttons.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "FenceGateBlocks",
+      "type": "tag",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_gate_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fence_gates.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "WoodenFenceBlocksTwo",
+      "type": "tag",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks_two",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fences/wooden.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "LogsThatBurnBlocks",
+      "type": "tag",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs_that_burn_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs_that_burn.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "PressurePlateItems",
+      "type": "tag",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pressure_plate_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/pressure_plates.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/ItemTags"
+    },
+    {
+      "name": "PressurePlateBlocks",
+      "type": "tag",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pressure_plate_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/pressure_plates.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "SlabBlocks",
+      "type": "tag",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slab_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/slabs.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "TrapdoorBlocks",
+      "type": "tag",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trapdoor_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/trapdoors.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "WoodenButtonBlocks",
+      "type": "tag",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_button_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_buttons.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "WoodenDoorBlocks",
+      "type": "tag",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_door_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_doors.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "WoodenPressurePlateBlocks",
+      "type": "tag",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_pressure_plate_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_pressure_plates.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "WoodenSlabBlocks",
+      "type": "tag",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_slab_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_slabs.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "WoodenStairBlocks",
+      "type": "tag",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_stair_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_stairs.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "WoodenTrapdoorBlocks",
+      "type": "tag",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_trapdoor_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_trapdoors.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "StairBlocks",
+      "type": "tag",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stair_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/stairs.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome/BlockTags"
+    },
+    {
+      "name": "FirWoodRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_wood_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "StrippedFirWoodRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_fir_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/stripped_fir_wood_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirPlanksLogRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirPlanksStrippedLogRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_planks_stripped_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_planks_stripped_log_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirPlanksWoodRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirPlanksStrippedWoodRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_planks_stripped_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_planks_stripped_wood_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirButtonRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_button_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSlabRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_slab_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirStairsRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_stairs_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirFenceRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_fence_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSignRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_sign_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirBoatRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_boat_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirDoorRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_door_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/recipes/fir_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "PlayJasonNearSoundProcedure",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_jason_near_sound_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/PlayJasonNearSoundProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonAiSwitcher",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_ai_switcher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonAiSwitcherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonAi1",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_ai_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonAi1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonAi2",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_ai_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonAi2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonAi3",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_ai_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonAi3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonAi4",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_ai_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonAi4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonAi5",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_ai_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonAi5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonDespawnProc",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_despawn_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonDespawnProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonVoorheesOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_voorhees_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonVoorheesOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeartBeatJasonSetForPlayer",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_beat_jason_set_for_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/HeartBeatJasonSetForPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeartbeatPlayerProc",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heartbeat_player_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/HeartbeatPlayerProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlay1",
+      "type": "overlay",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/client/screens/HeatbeatOverlay1Overlay.java"
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlay2",
+      "type": "overlay",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/client/screens/HeatbeatOverlay2Overlay.java"
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlay3",
+      "type": "overlay",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/client/screens/HeatbeatOverlay3Overlay.java"
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlay4",
+      "type": "overlay",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/client/screens/HeatbeatOverlay4Overlay.java"
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlay5",
+      "type": "overlay",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/client/screens/HeatbeatOverlay5Overlay.java"
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlay6",
+      "type": "overlay",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/client/screens/HeatbeatOverlay6Overlay.java"
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlayProc1",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_proc_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/HeatbeatOverlayProc1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlayProc2",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_proc_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/HeatbeatOverlayProc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlayProc3",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_proc_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/HeatbeatOverlayProc3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlayProc4",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_proc_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/HeatbeatOverlayProc4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlayProc5",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_proc_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/HeatbeatOverlayProc5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "HeatbeatOverlayProc6",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatbeat_overlay_proc_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/HeatbeatOverlayProc6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/HeartbeatOverlay"
+    },
+    {
+      "name": "SearchOverlayProc0",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "search_overlay_proc_0",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/SearchOverlayProc0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SearchOverlay"
+    },
+    {
+      "name": "SearchOverlayProc1",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "search_overlay_proc_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/SearchOverlayProc1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SearchOverlay"
+    },
+    {
+      "name": "SearchOverlayProc2",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "search_overlay_proc_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/SearchOverlayProc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SearchOverlay"
+    },
+    {
+      "name": "SearchOverlayProc3",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "search_overlay_proc_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/SearchOverlayProc3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SearchOverlay"
+    },
+    {
+      "name": "SearchOverlayProc4",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "search_overlay_proc_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/SearchOverlayProc4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SearchOverlay"
+    },
+    {
+      "name": "SearchOverlayProc5",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "search_overlay_proc_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/SearchOverlayProc5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SearchOverlay"
+    },
+    {
+      "name": "SearchOverlayProc6",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "search_overlay_proc_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/SearchOverlayProc6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SearchOverlay"
+    },
+    {
+      "name": "JasonMusicPlayerProc",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_music_player_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonMusicPlayerProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_damage",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BypassesArmorDamageTypes",
+      "type": "tag",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bypasses_armor_damage_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/damage_type/bypasses_armor.json"
+        ]
+      }
+    },
+    {
+      "name": "BypassesEffectDamageTypes",
+      "type": "tag",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bypasses_effect_damage_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/damage_type/bypasses_effects.json"
+        ]
+      }
+    },
+    {
+      "name": "BypassesEnchantmentDamageTypes",
+      "type": "tag",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bypasses_enchantment_damage_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/damage_type/bypasses_enchantments.json"
+        ]
+      }
+    },
+    {
+      "name": "BrokenRegenBlock",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_regen_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/blockstates/broken_regen_block.json",
+          "src/main/java/net/voxla/fridayjason/block/BrokenRegenBlockBlock.java",
+          "src/main/resources/assets/friday_jason/models/item/broken_regen_block.json",
+          "src/main/resources/assets/friday_jason/models/block/broken_regen_block.json",
+          "src/main/java/net/voxla/fridayjason/block/entity/BrokenRegenBlockBlockEntity.java"
+        ]
+      },
+      "path": "~/RegenBlock"
+    },
+    {
+      "name": "GlassBlocks",
+      "type": "tag",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/tags/blocks/glass_blocks.json"
+        ]
+      },
+      "path": "~/RegenBlock"
+    },
+    {
+      "name": "GlassPanes",
+      "type": "tag",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_panes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/tags/blocks/glass_panes.json"
+        ]
+      },
+      "path": "~/RegenBlock"
+    },
+    {
+      "name": "BrokenRegenBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_regen_block_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/BrokenRegenBlockUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RegenBlock"
+    },
+    {
+      "name": "JasonBreakGlassProc",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_break_glass_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonBreakGlassProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RegenBlock"
+    },
+    {
+      "name": "JasonBreakGlassPaneProc",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_break_glass_pane_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonBreakGlassPaneProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/RegenBlock"
+    },
+    {
+      "name": "PlayerStruggleKey1",
+      "type": "keybind",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_struggle_key_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/network/PlayerStruggleKey1Message.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerStruggleKey2",
+      "type": "keybind",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_struggle_key_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/network/PlayerStruggleKey2Message.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerStruggleKey3",
+      "type": "keybind",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_struggle_key_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/network/PlayerStruggleKey3Message.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerStruggleKey4",
+      "type": "keybind",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_struggle_key_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/network/PlayerStruggleKey4Message.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerStruggleKey5",
+      "type": "keybind",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_struggle_key_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/network/PlayerStruggleKey5Message.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerStruggleKeyPressed",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_struggle_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/PlayerStruggleKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonWhenGrabbingPlayerProc",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_when_grabbing_player_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonWhenGrabbingPlayerProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CanJasonMoveAndLookAround",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can_jason_move_and_look_around",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/CanJasonMoveAndLookAroundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonVoorheesEntityDies",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_voorhees_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonVoorheesEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonCanNotSpawnCooldownTimer",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_can_not_spawn_cooldown_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonCanNotSpawnCooldownTimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonSpawner",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_spawner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonSpawnerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonCanSpawn",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_can_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonCanSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerStruggleKey6",
+      "type": "keybind",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_struggle_key_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/network/PlayerStruggleKey6Message.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerStruggleKey7",
+      "type": "keybind",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_struggle_key_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/network/PlayerStruggleKey7Message.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodPoof",
+      "type": "particle",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_poof",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/client/particle/BloodPoofParticle.java",
+          "src/main/resources/assets/friday_jason/particles/blood_poof.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartOfTheSlasherItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_the_slasher_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/HeartOfTheSlasherItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeartOfTheSlasher",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_the_slasher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/item/heart_of_the_slasher.json",
+          "src/main/java/net/voxla/fridayjason/item/HeartOfTheSlasherItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JasonArm",
+      "type": "animatedentity",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/entity/JasonArmEntity.java",
+          "src/main/java/net/voxla/fridayjason/entity/model/JasonArmModel.java",
+          "src/main/java/net/voxla/fridayjason/client/renderer/JasonArmRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "JasonArmOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_arm_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonArmOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlashersMachete",
+      "type": "tool",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slashers_machete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/item/SlashersMacheteItem.java",
+          "src/main/resources/assets/friday_jason/models/item/slashers_machete.json"
+        ]
+      }
+    },
+    {
+      "name": "CanDamageJasonArm",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can_damage_jason_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/CanDamageJasonArmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonVoorheesLoot",
+      "type": "loottable",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_voorhees_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/loot_tables/entities/jason_voorhees.json"
+        ]
+      }
+    },
+    {
+      "name": "JasonSetCooldownToZero",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_set_cooldown_to_zero",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonSetCooldownToZeroProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JasonKilledSpawnCooldownSet0",
+      "type": "command",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_killed_spawn_cooldown_set_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/command/JasonKilledSpawnCooldownSet0Command.java"
+        ]
+      }
+    },
+    {
+      "name": "ForceJasonToSpawnBeforeOneDayHasPassed",
+      "type": "command",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_jason_to_spawn_before_one_day_has_passed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/command/ForceJasonToSpawnBeforeOneDayHasPassedCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ForSpawn",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "for_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/ForSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BackToHell",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_to_hell",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/advancements/back_to_hell.json"
+        ]
+      }
+    },
+    {
+      "name": "Camper",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/textures/entity/villager/profession/camper.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "CamperTrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camper_trades",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FirForestContainerLoot",
+      "type": "loottable",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_forest_container_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/loot_tables/chests/fir_forest_container_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "ThrownMacheteProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrown_machete_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/ThrownMacheteProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThrownMacheteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrown_machete_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/ThrownMacheteProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThrownMachete",
+      "type": "projectile",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrown_machete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/entity/ThrownMacheteEntity.java",
+          "src/main/java/net/voxla/fridayjason/client/renderer/ThrownMacheteRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "JasonThrowMacheteProc",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_throw_machete_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonThrowMacheteProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FirSaplingFlowerPot",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling_flower_pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/block/fir_sapling_flower_pot.json",
+          "src/main/java/net/voxla/fridayjason/block/FirSaplingFlowerPotBlock.java",
+          "src/main/resources/assets/friday_jason/blockstates/fir_sapling_flower_pot.json",
+          "src/main/resources/assets/friday_jason/models/item/fir_sapling_flower_pot.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSaplingFlowerPotLoot",
+      "type": "loottable",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling_flower_pot_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/loot_tables/blocks/fir_sapling_flower_pot.json"
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSaplingPotRightClick",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling_pot_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/FirSaplingPotRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "FirSaplingFlowerPotOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling_flower_pot_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/FirSaplingFlowerPotOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirItemsBlocksBiome"
+    },
+    {
+      "name": "JasonConfig",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonConfigProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "JasonConfigDoneButton",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_config_done_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonConfigDoneButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "JasonConfigResetButton",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_config_reset_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonConfigResetButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "JasonConfigCancelButton",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_config_cancel_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonConfigCancelButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "JasonConfigCommandOpen",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_config_command_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonConfigCommandOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "JasonConfigCommand",
+      "type": "command",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_config_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/command/JasonConfigCommandCommand.java"
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "JasonConfigGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_config_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/world/inventory/JasonConfigGuiMenu.java",
+          "src/main/java/net/voxla/fridayjason/client/gui/JasonConfigGuiScreen.java",
+          "src/main/java/net/voxla/fridayjason/network/JasonConfigGuiButtonMessage.java"
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "ConfigTooltipItem1",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_tooltip_item_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/item/ConfigTooltipItem1Item.java",
+          "src/main/resources/assets/friday_jason/models/item/config_tooltip_item_1.json"
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "ConfigTooltipItem2",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_tooltip_item_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/item/ConfigTooltipItem2Item.java",
+          "src/main/resources/assets/friday_jason/models/item/config_tooltip_item_2.json"
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "ConfigTooltipItem3",
+      "type": "item",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_tooltip_item_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/item/config_tooltip_item_3.json",
+          "src/main/java/net/voxla/fridayjason/item/ConfigTooltipItem3Item.java"
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "ConfigTooltipItem4",
+      "type": "item",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_tooltip_item_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/item/config_tooltip_item_4.json",
+          "src/main/java/net/voxla/fridayjason/item/ConfigTooltipItem4Item.java"
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "ConfigWarningItem",
+      "type": "item",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_warning_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/friday_jason/models/item/config_warning_item.json",
+          "src/main/java/net/voxla/fridayjason/item/ConfigWarningItemItem.java"
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "JasonConfigGuiThisGUIIsOpened",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jason_config_gui_this_gui_is_opened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/procedures/JasonConfigGuiThisGUIIsOpenedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "ConfigTooltipItem5",
+      "type": "item",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_tooltip_item_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/item/ConfigTooltipItem5Item.java",
+          "src/main/resources/assets/friday_jason/models/item/config_tooltip_item_5.json"
+        ]
+      },
+      "path": "~/GuiConfig"
+    },
+    {
+      "name": "FirCampsite1",
+      "type": "structure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_campsite_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/worldgen/structure_set/fir_campsite_1.json",
+          "src/main/resources/data/friday_jason/worldgen/structure/fir_campsite_1.json",
+          "src/main/resources/data/friday_jason/worldgen/template_pool/fir_campsite_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "FirCampsite2",
+      "type": "structure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_campsite_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/worldgen/template_pool/fir_campsite_2.json",
+          "src/main/resources/data/friday_jason/worldgen/structure/fir_campsite_2.json",
+          "src/main/resources/data/friday_jason/worldgen/structure_set/fir_campsite_2.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "SpruceCampsite1",
+      "type": "structure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_campsite_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/worldgen/template_pool/spruce_campsite_1.json",
+          "src/main/resources/data/friday_jason/worldgen/structure/spruce_campsite_1.json",
+          "src/main/resources/data/friday_jason/worldgen/structure_set/spruce_campsite_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "SpruceCampsite2",
+      "type": "structure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_campsite_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/worldgen/structure_set/spruce_campsite_2.json",
+          "src/main/resources/data/friday_jason/worldgen/structure/spruce_campsite_2.json",
+          "src/main/resources/data/friday_jason/worldgen/template_pool/spruce_campsite_2.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "SmallFirCabin1",
+      "type": "structure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_fir_cabin_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/worldgen/structure/small_fir_cabin_1.json",
+          "src/main/resources/data/friday_jason/worldgen/template_pool/small_fir_cabin_1.json",
+          "src/main/resources/data/friday_jason/worldgen/structure_set/small_fir_cabin_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "SmallFirCabin2",
+      "type": "structure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_fir_cabin_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/worldgen/structure/small_fir_cabin_2.json",
+          "src/main/resources/data/friday_jason/worldgen/structure_set/small_fir_cabin_2.json",
+          "src/main/resources/data/friday_jason/worldgen/template_pool/small_fir_cabin_2.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "LargeFirCabin1",
+      "type": "structure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_fir_cabin_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/worldgen/structure_set/large_fir_cabin_1.json",
+          "src/main/resources/data/friday_jason/worldgen/template_pool/large_fir_cabin_1.json",
+          "src/main/resources/data/friday_jason/worldgen/structure/large_fir_cabin_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "LargeFirCabin2",
+      "type": "structure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_fir_cabin_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/worldgen/structure_set/large_fir_cabin_2.json",
+          "src/main/resources/data/friday_jason/worldgen/structure/large_fir_cabin_2.json",
+          "src/main/resources/data/friday_jason/worldgen/template_pool/large_fir_cabin_2.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "SmallSpruceCabin",
+      "type": "structure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_spruce_cabin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/worldgen/structure/small_spruce_cabin.json",
+          "src/main/resources/data/friday_jason/worldgen/template_pool/small_spruce_cabin.json",
+          "src/main/resources/data/friday_jason/worldgen/structure_set/small_spruce_cabin.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "LargeSpruceCabin",
+      "type": "structure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_spruce_cabin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/friday_jason/worldgen/structure_set/large_spruce_cabin.json",
+          "src/main/resources/data/friday_jason/worldgen/template_pool/large_spruce_cabin.json",
+          "src/main/resources/data/friday_jason/worldgen/structure/large_spruce_cabin.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "ConfigTooltipItem6",
+      "type": "item",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_tooltip_item_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/fridayjason/item/ConfigTooltipItem6Item.java",
+          "src/main/resources/assets/friday_jason/models/item/config_tooltip_item_6.json"
+        ]
+      },
+      "path": "~/GuiConfig"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "HeartbeatOverlayTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "HeartbeatSoundTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "HeartbeatFastSoundTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "PlayerBeingGrabbed",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "JasonCannotSpawn",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "HasOneDayPassed",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "JasonSpawnTimer",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "JasonArmGrabbingPlayer",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "JasonArmSpawnTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "ambient.jason.near",
+      "files": [
+        "jasonnear"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.player.heartbeat_slow",
+      "files": [
+        "heartbeat_slow"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.player.heartbeat_fast",
+      "files": [
+        "heartbeat_fast"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "music.jason.chasing",
+      "files": [
+        "jasonchasing"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "music.jason.searching",
+      "files": [
+        "jasonsearching"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.player.jumpscare.jason",
+      "files": [
+        "jasonjumpscare1",
+        "jasonjumpscare2",
+        "jasonjumpscare3",
+        "jasonjumpscare4"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.jason.death",
+      "files": [
+        "jasondeath"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.jason_arm.disappear",
+      "files": [
+        "jasonarmdisappear"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.jason.hurt",
+      "files": [
+        "jasonhurt1",
+        "jasonhurt2",
+        "jasonhurt3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "music.jason.chasing_ftgame",
+      "files": [
+        "jasonchasingftgame"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "music.jason.searching_ftgame",
+      "files": [
+        "jasonsearchingftgame"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.player.jumpscare.jason_ftgame",
+      "files": [
+        "jasonjumpscareftgame"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.friday_jason.config_tooltip_item_6": "if ft13th game music is toggled/set to \"true\" than music from the Friday the 13th game will play instead of the custom music the mod comes with. §3the default is \"false\" which means the box default is not checked",
+      "effect.friday_jason.injury": "Injury",
+      "item.friday_jason.config_tooltip_item_5": "the spawning during day toggles whether jason can spawn during the day or not. §3the default is \"false\" which means the box default is not checked",
+      "block.friday_jason.fir_log": "Fir Log",
+      "item.friday_jason.config_tooltip_item_4": "spawn time can be set from 1 to 5, 1 being the lowest 5 being the highest. §3the default is 3 §6Warning: if you put regular none number text here or 0 or a number above 5 and press the \"Done\" button the game will most likely crash",
+      "subtitles.music.jason.searching": "",
+      "gui.friday_jason.jason_config_gui.does_jason_get_faster_at_bloodstage_3_check": "",
+      "item.friday_jason.config_tooltip_item_3": "the killed cooldown can go from 1 to 5, 1 being the lowest 5 being the highest. The kill cooldown happens when you kill jason. §3the default is 3§f, which is 3 days in game so 2 would be 2 days etc §6Warning: if you put regular none number text here or 0 or a number above 5 and press the \"Done\" button the game will most likely crash",
+      "gui.friday_jason.jason_config_gui.label_jason_spawn_time": "jason_spawn_time",
+      "subtitles.entity.jason_arm.disappear": "",
+      "gui.friday_jason.jason_config_gui.tooltip_the_jason_music_just_toggles_on": "the jason music just toggles on and off the music for when jason is chasing/searching for you",
+      "subtitles.entity.player.heartbeat_fast": "",
+      "gui.friday_jason.jason_config_gui.label_jason_killed_cooldown": "jason_killed_cooldown",
+      "subtitles.entity.player.jumpscare.jason_ftgame": "",
+      "subtitles.ambient.jason.near": "",
+      "gui.friday_jason.jason_config_gui.label_does_jason_get_stronger_with_eac": "jason_get_stronger_with_each_blood_stage",
+      "item.friday_jason.config_tooltip_item_2": "jasons bloodstage goes up everytime he hits the player 3 times. the max bloodstage jason can go to is 3. §3the default is \"true\" which means the box default is checked",
+      "item.friday_jason.jason_voorhees_spawn_egg": "Jason Voorhees Spawn Egg",
+      "item.friday_jason.config_tooltip_item_1": "the jason music just toggles on and off the music for when jason is chasing/searching for you. §3the default is \"true\" which means the box default is checked",
+      "gui.friday_jason.jason_config_gui.tooltip_empty": "",
+      "subtitles.entity.jason.death": "",
+      "gui.friday_jason.jason_config_gui.jason_spawn_time_input": "",
+      "subtitles.music.jason.searching_ftgame": "",
+      "entity.friday_jason.jason_voorhees": "Jason Voorhees",
+      "subtitles.music.jason.chasing": "",
+      "gui.friday_jason.jason_config_gui.does_jason_get_stronger_with_each_blood_stage_check": "",
+      "gui.friday_jason.jason_config_gui.jason_killed_cooldown_input": "",
+      "subtitles.entity.player.heartbeat_slow": "",
+      "gui.friday_jason.jason_config_gui.button_done": "Done",
+      "block.friday_jason.broken_regen_block": "Broken Regen Block",
+      "gui.friday_jason.jason_config_gui.label_jason_config": "Jason Config",
+      "gui.friday_jason.jason_config_gui.tooltip_the_killed_cooldown_can_go_from": "the killed cooldown can go from 1 to 5, 1 being the lowest 5 being the highest. The kill cooldown happens when you kill jasonthe default is 3, which is 3 days in game so 2 would be 2 days etc",
+      "block.friday_jason.fir_leaves": "Fir Leaves",
+      "block.friday_jason.fir_button": "Fir Button",
+      "block.friday_jason.fir_sapling": "Fir Sapling",
+      "gui.friday_jason.jason_config_gui.label_does_jason_get_faster_at_bloodst": "does_jason_get_faster_at_blood_stage_3",
+      "item.friday_jason.config_warning_item": "§6Warning: Pressing \"Done\" without setting everything as you want it will result in some things being reset to default and if all the checkboxes are unchecked than they will all be false",
+      "item.friday_jason.jason_arm_spawn_egg": "Jason Voorhees Spawn Egg",
+      "block.friday_jason.fir_trapdoor": "Fir Trapdoor",
+      "gui.friday_jason.jason_config_gui.label_jason_spawn_during_day": "jason_spawn_during_day",
+      "subtitles.music.jason.chasing_ftgame": "",
+      "block.friday_jason.fir_stairs": "Fir Stairs",
+      "block.friday_jason.fir_slab": "Fir Slab",
+      "block.friday_jason.fir_door": "Fir Door",
+      "block.friday_jason.fir_pressure_plate": "Fir Pressure Plate",
+      "gui.friday_jason.jason_config_gui.jason_music_check": "",
+      "subtitles.entity.player.jumpscare.one": "",
+      "block.friday_jason.fir_fence_gate": "Fir Fence Gate",
+      "block.friday_jason.fir_planks": "Fir Planks",
+      "block.friday_jason.fir_wood": "Fir Wood",
+      "block.friday_jason.stripped_fir_log": "Stripped Fir Log",
+      "gui.friday_jason.jason_config_gui.label_jason_music": "jason_music",
+      "gui.friday_jason.jason_config_gui.label_ft13th_game_music": "ft13th_game_music",
+      "death.attack.jason_damage": "%1$s got cut in half by Jason Voorhees",
+      "biome.friday_jason.fir_forest": "Fir Forest",
+      "entity.friday_jason.jason_arm": "Jason Voorhees",
+      "advancements.back_to_hell.descr": "Kill Jason Voorhees",
+      "advancements.back_to_hell.title": "Back to Hell",
+      "subtitles.entity.player.jumpscare.jason": "",
+      "subtitles.entity.player.jumpscare.two": "",
+      "block.friday_jason.stripped_fir_wood": "Stripped Fir Wood",
+      "gui.friday_jason.jason_config_gui.jason_spawn_during_day_check": "",
+      "death.attack.jason_damage.item": "%1$s was gutted by %2$s",
+      "gui.friday_jason.jason_config_gui.button_reset": "Reset",
+      "block.friday_jason.fir_fence": "Fir Fence",
+      "block.friday_jason.fir_sapling_flower_pot": "Fir Sapling Flower Pot",
+      "key.friday_jason.player_struggle_key_4": "Struggle Key",
+      "key.friday_jason.player_struggle_key_5": "Struggle Key",
+      "key.friday_jason.player_struggle_key_6": "Struggle Key",
+      "entity.minecraft.villager.friday_jason.camper": "Camper",
+      "key.friday_jason.player_struggle_key_7": "Struggle Key",
+      "key.friday_jason.player_struggle_key_1": "Struggle Key",
+      "key.friday_jason.player_struggle_key_2": "Struggle Key",
+      "item.friday_jason.heart_of_the_slasher": "Heart of the Slasher",
+      "death.attack.jason_damage.player": "%1$s got slaughtered whilst trying to escape %2$s",
+      "key.friday_jason.player_struggle_key_3": "Struggle Key",
+      "item.friday_jason.slashers_machete": "§bSlasher\u0027s Machete",
+      "gui.friday_jason.jason_config_gui.button_cancel": "Cancel",
+      "gui.friday_jason.jason_config_gui.ft13th_game_music_check": "",
+      "subtitles.entity.jason.hurt": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "HeartbeatOverlay",
+        "children": []
+      },
+      {
+        "name": "SearchOverlay",
+        "children": []
+      },
+      {
+        "name": "FirItemsBlocksBiome",
+        "children": [
+          {
+            "name": "ItemTags",
+            "children": []
+          },
+          {
+            "name": "BiomeTags",
+            "children": []
+          },
+          {
+            "name": "BlockTags",
+            "children": []
+          },
+          {
+            "name": "Structures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "RegenBlock",
+        "children": []
+      },
+      {
+        "name": "GuiConfig",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "friday_jason",
+    "modName": "Friday the 13th: Jason Voorhees",
+    "version": "1.0.0",
+    "description": "This mod adds the slasher Jason Voorhees to Minecraft along with a few new structures and a new wood type.",
+    "author": "Voxla",
+    "websiteURL": "https://www.curseforge.com/members/voxla/projects",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "fridayjasonlogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator, Mod made by Voxla",
+    "modElementsPackage": "net.voxla.fridayjason",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

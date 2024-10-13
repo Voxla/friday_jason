@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fir_sapling_flower_pot"
+      },
+      "name": "default"
+    }
+  }
+}

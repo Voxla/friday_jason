@@ -1,0 +1,109 @@
+{
+  "_fv": 57,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "searchmeter0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SearchOverlayProc0"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 185,
+          "y": 172
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "searchmeter1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SearchOverlayProc1"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 185,
+          "y": 172
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "searchmeter2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SearchOverlayProc2"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 185,
+          "y": 172
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "searchmeter3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SearchOverlayProc3"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 185,
+          "y": 172
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "searchmeter4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SearchOverlayProc4"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 185,
+          "y": 172
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "searchmeter5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SearchOverlayProc5"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 185,
+          "y": 172
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "searchmeter6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SearchOverlayProc6"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 185,
+          "y": 172
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

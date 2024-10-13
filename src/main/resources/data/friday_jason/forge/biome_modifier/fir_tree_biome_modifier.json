@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "friday_jason:fir_forest",
+  "features": "friday_jason:fir_tree",
+  "step": "surface_structures"
+}

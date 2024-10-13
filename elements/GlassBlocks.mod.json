@@ -1,0 +1,70 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "Blocks.TINTED_GLASS"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#0"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#1"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#2"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#3"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#4"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#5"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#6"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#7"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#8"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#9"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#10"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#11"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#12"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#13"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#14"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#15"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "glass_blocks",
+    "namespace": "mod"
+  }
+}

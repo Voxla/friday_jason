@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "friday_jason:heart_of_the_slasher"
+    },
+    "title": {
+      "translate": "advancements.back_to_hell.title"
+    },
+    "description": {
+      "translate": "advancements.back_to_hell.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "back_to_hell": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "minecraft:adventure/kill_a_mob"
+}

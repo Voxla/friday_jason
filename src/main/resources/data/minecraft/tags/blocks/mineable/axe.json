@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "friday_jason:fir_log",
+    "friday_jason:fir_wood",
+    "friday_jason:stripped_fir_log",
+    "friday_jason:stripped_fir_wood",
+    "friday_jason:fir_planks",
+    "friday_jason:fir_stairs",
+    "friday_jason:fir_slab",
+    "friday_jason:fir_fence",
+    "friday_jason:fir_fence_gate",
+    "friday_jason:fir_door",
+    "friday_jason:fir_trapdoor",
+    "friday_jason:fir_pressure_plate",
+    "friday_jason:fir_button"
+  ]
+}

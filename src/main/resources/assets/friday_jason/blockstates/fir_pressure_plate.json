@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "friday_jason:block/fir_pressure_plate"
+    },
+    "powered=true": {
+      "model": "friday_jason:block/fir_pressure_plate_down"
+    }
+  }
+}

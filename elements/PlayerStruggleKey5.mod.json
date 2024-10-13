@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SPACE",
+    "keyBindingName": "Struggle Key",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "PlayerStruggleKeyPressed"
+    }
+  }
+}

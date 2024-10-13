@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Camper",
+    "pointOfInterest": {
+      "value": "Blocks.FURNACE"
+    },
+    "actionSound": {
+      "value": "block.smoker.smoke"
+    },
+    "hat": "Full",
+    "professionTextureFile": "camper.png",
+    "zombifiedProfessionTextureFile": "camper_z.png"
+  }
+}

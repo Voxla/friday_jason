@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "friday_jason:blocks/fir_log",
+    "up": "friday_jason:blocks/fir_log",
+    "north": "friday_jason:blocks/fir_log",
+    "east": "friday_jason:blocks/fir_log",
+    "south": "friday_jason:blocks/fir_log",
+    "west": "friday_jason:blocks/fir_log",
+    "particle": "friday_jason:blocks/fir_log"
+  },
+  "render_type": "solid"
+}

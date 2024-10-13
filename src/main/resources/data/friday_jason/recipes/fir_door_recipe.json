@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "friday_jason:fir_planks"
+    }
+  },
+  "result": {
+    "item": "friday_jason:fir_door",
+    "count": 3
+  }
+}

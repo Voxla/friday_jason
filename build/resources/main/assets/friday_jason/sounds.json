@@ -1,0 +1,118 @@
+{
+  "ambient.jason.near": {
+    "sounds": [
+      {
+        "name": "friday_jason:jasonnear",
+        "stream": false
+      }
+    ]
+  },
+  "entity.player.heartbeat_slow": {
+    "sounds": [
+      {
+        "name": "friday_jason:heartbeat_slow",
+        "stream": false
+      }
+    ]
+  },
+  "entity.player.heartbeat_fast": {
+    "sounds": [
+      {
+        "name": "friday_jason:heartbeat_fast",
+        "stream": false
+      }
+    ]
+  },
+  "music.jason.chasing": {
+    "sounds": [
+      {
+        "name": "friday_jason:jasonchasing",
+        "stream": true
+      }
+    ]
+  },
+  "music.jason.searching": {
+    "sounds": [
+      {
+        "name": "friday_jason:jasonsearching",
+        "stream": true
+      }
+    ]
+  },
+  "entity.player.jumpscare.jason": {
+    "sounds": [
+      {
+        "name": "friday_jason:jasonjumpscare1",
+        "stream": true
+      },
+      {
+        "name": "friday_jason:jasonjumpscare2",
+        "stream": true
+      },
+      {
+        "name": "friday_jason:jasonjumpscare3",
+        "stream": true
+      },
+      {
+        "name": "friday_jason:jasonjumpscare4",
+        "stream": true
+      }
+    ]
+  },
+  "entity.jason.death": {
+    "sounds": [
+      {
+        "name": "friday_jason:jasondeath",
+        "stream": false
+      }
+    ]
+  },
+  "entity.jason_arm.disappear": {
+    "sounds": [
+      {
+        "name": "friday_jason:jasonarmdisappear",
+        "stream": false
+      }
+    ]
+  },
+  "entity.jason.hurt": {
+    "sounds": [
+      {
+        "name": "friday_jason:jasonhurt1",
+        "stream": false
+      },
+      {
+        "name": "friday_jason:jasonhurt2",
+        "stream": false
+      },
+      {
+        "name": "friday_jason:jasonhurt3",
+        "stream": false
+      }
+    ]
+  },
+  "music.jason.chasing_ftgame": {
+    "sounds": [
+      {
+        "name": "friday_jason:jasonchasingftgame",
+        "stream": true
+      }
+    ]
+  },
+  "music.jason.searching_ftgame": {
+    "sounds": [
+      {
+        "name": "friday_jason:jasonsearchingftgame",
+        "stream": true
+      }
+    ]
+  },
+  "entity.player.jumpscare.jason_ftgame": {
+    "sounds": [
+      {
+        "name": "friday_jason:jasonjumpscareftgame",
+        "stream": true
+      }
+    ]
+  }
+}
